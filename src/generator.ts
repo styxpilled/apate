@@ -1,15 +1,16 @@
-export interface Config {
-  dictionaries: string[][];
-  separator?: string;
-  length?: number;
-}
+import { Config } from "./types";
 
-export function generate(config: Config): string {
-  const { dictionaries, separator, length } = config;
-  const words = new Set();
+export function generate(config: Config): string | string[] {
+  const { dictionaries, separator, length, mode } = config;
+  const words = new Set<string>();
   while (words.size < length) {
     const dictionary = dictionaries[Math.floor(Math.random() * dictionaries.length)];
     words.add(dictionary[Math.floor(Math.random() * dictionary.length)]);
   }
-  return Array.from(words).join(separator || '');
+  if (mode === 'string') {
+    return [...words].join(separator);
+  }
+  else {
+    return [...words];
+  }
 }
