@@ -1,8 +1,5 @@
-// * This is a list of python libraries.
+/** Python libraries */
 export default [
-  'TensorFlow',
-  'Keras',
-  'PyTorch',
   'Pandas',
   'Numpy',
   'Matplotlib',

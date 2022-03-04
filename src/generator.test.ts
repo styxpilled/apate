@@ -6,7 +6,7 @@ const config: Config = {
   dictionaries: [
     javascript.frontend,
     pokemon,
-    python,
+    python.lib,
   ],
   separator: ', ',
   mode: 'array',
