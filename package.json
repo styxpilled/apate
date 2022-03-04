@@ -4,11 +4,12 @@
   "authors": "styxpiled",
   "version": "0.0.2",
   "scripts": {
-    "test": "tsc && node dist/generator.test.js",
-    "dev": "tsc -w && node dist/generator.test.js"
+    "test": "rimraf dist/ && tsc && node dist/generator.test.js",
+    "dev": "rimraf dist/ && tsc -w && node dist/generator.test.js"
   },
   "main": "dist/index.js",
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "typescript": "^4.6.2"
   }
 }
