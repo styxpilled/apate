@@ -2,10 +2,10 @@
   "name": "apate",
   "description": "Generate the greatest Linkedin bio in existence",
   "authors": "styxpiled",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && node dist/main.js"
+    "test": "tsc && node dist/generator.test.js",
+    "dev": "tsc -w && node dist/generator.test.js"
   },
   "main": "dist/index.js",
   "devDependencies": {
