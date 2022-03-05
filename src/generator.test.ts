@@ -1,5 +1,4 @@
 import { generate } from './generator';
-import { Config } from './types';
 import { javascript, pokemon, python } from './dictionaries/index';
 
 const config: Config = {
