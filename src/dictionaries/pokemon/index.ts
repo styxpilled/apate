@@ -4,6 +4,8 @@ import gen3 from "./gen3";
 import gen4 from "./gen4";
 import gen5 from "./gen5";
 import gen6 from "./gen6";
+import gen7 from "./gen7";
+import gen8 from "./gen8";
 
 import curated from "./curated";
 
@@ -17,7 +19,18 @@ import curated from "./curated";
  * @property gen5 - Gen 5 Pokemon.
  * @property gen6 - Gen 6 Pokemon.
  */
- const pokemon = {
+const pokemon = {
+  /** All pokemon. */
+  all: [
+    ...gen1,
+    ...gen2,
+    ...gen3,
+    ...gen4,
+    ...gen5,
+    ...gen6,
+    ...gen7,
+    ...gen8,
+  ],
   /** Curated list of pokemon. */
   curated,
   /** Gen 1 Pokemon. */
@@ -32,6 +45,10 @@ import curated from "./curated";
   gen5,
   /** Gen 6 Pokemon */
   gen6,
+  /** Gen 7 Pokemon */
+  gen7,
+  /** Gen 8 Pokemon */
+  gen8,
 };
 
 export default pokemon;

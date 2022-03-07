@@ -4,7 +4,7 @@ import { javascript, pokemon, python } from './dictionaries/index';
 const config: Config = {
   dictionaries: [
     javascript.frontend,
-    pokemon.gen1,
+    pokemon.all,
     python.lib,
   ],
   separator: ', ',
