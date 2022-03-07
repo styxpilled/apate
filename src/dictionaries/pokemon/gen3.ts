@@ -1,4 +1,4 @@
-/** Gen 2 Pokemon. */
+/** Gen 3 Pokemon. */
 export default [
   'Treecko',
   'Grovyle',
