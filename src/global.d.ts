@@ -4,7 +4,3 @@ interface Config {
   mode?: 'string' | 'array';
   length?: number;
 }
-
-interface Dictionary {
-  [key: string]: string[];
-}
