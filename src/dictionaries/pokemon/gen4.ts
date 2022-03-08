@@ -1,3 +1,4 @@
+/** Gen 4 Pokemon. */
 export default [
   'Turtwig',
   'Grotle',

@@ -1,3 +1,4 @@
+/** Gen 8 Pokemon. */
 export default [
   'Grookey',
   'Thwackey',

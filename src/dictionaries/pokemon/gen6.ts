@@ -1,3 +1,4 @@
+/** Gen 6 Pokemon. */
 export default [
   'Chespin',
   'Quilladin',

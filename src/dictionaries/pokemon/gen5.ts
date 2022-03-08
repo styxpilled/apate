@@ -1,3 +1,4 @@
+/** Gen 5 Pokemon. */
 export default [
   'Victini',
   'Snivy',

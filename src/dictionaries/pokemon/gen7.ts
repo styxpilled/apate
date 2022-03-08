@@ -1,3 +1,4 @@
+/** Gen 7 Pokemon. */
 export default [
   'Rowlet',
   'Dartrix',
