@@ -1,3 +1,4 @@
+import { Config } from "./types";
 import { generate } from './generator';
 import { javascript, pokemon, python } from './dictionaries/index';
 

@@ -1,4 +1,4 @@
-interface Config {
+export interface Config {
   dictionaries: string[][];
   separator?: string;
   end?: string;

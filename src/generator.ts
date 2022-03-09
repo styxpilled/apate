@@ -1,3 +1,4 @@
+import { Config } from "./types";
 export function generate(config: Config): string | string[] {
   const { dictionaries, separator, length, mode, end } = config;
   const words = new Set<string>();
