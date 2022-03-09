@@ -8,7 +8,8 @@ const config: Config = {
     python.lib,
   ],
   separator: ', ',
-  mode: 'array',
+  end: '.',
+  mode: 'string',
   length: 3,
 };
 
