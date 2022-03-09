@@ -4,6 +4,7 @@
   "authors": "styxpiled",
   "version": "0.0.2",
   "scripts": {
+    "install": "tsc",
     "test": "rimraf dist/ && tsc && node dist/generator.test.js",
     "dev": "rimraf dist/ && tsc -w && node dist/generator.test.js"
   },
